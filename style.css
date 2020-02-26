@@ -1,20 +1,105 @@
 body {
-    background: salmon;
+    background: #fefefe;
+    color: #333;
 }
 
-.mainHeader {
-    color: tomato;
+.navigation {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 16px;
+    background: #fff;
 }
 
-.sectionHeader {
+.navigation__link {
+    color: #1A936f;
+}
+
+.main {
+    width: 500px;
+    max-width: 700px;
+    margin: 32px auto;
+    padding-top: 50px;
+}
+
+.main__header {
+    color: #00487C;
+    margin-bottom: 48px;
+}
+
+.diary {
+    clear: both;
+}
+
+.about__header, .diary__header {
     color: #1460AA;
-    font-size: 64px;
 }
 
-.diaryHeader {
-    color: rgb(100, 13, 117);
+.diary__third__header {
+    color: #0496ff;
 }
 
-p {
-    color: darkblue;
+.diary__paragraph {
+    padding: 16px;
+}
+
+.diary__link {
+    color: #1A936f;
+}
+
+.video__third__header {
+    color: #0496ff;
+}
+
+.video__paragraph {
+    padding: 16px;
+}
+
+.about {
+}
+
+.about__box {
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 10px solid red;
+    position: sticky;
+    top: 0;
+    left: 50%;
+}
+
+.about__header {
+    color: #1460AA;
+}
+
+.about__link {
+    color: #1A936f;
+}
+
+.about__paragraph {
+    padding: 16px;
+}
+
+.about__paragraph--color {
+    color: #ff6700;
+}
+
+.about__picture {
+    width: 100%;
+    max-width: 100px;
+    display: block;
+    float: left;
+    margin: 0 16px 16px 0;
+}
+
+.footer {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #1a936f;
+    text-decoration: none;
 }
