@@ -20,3 +20,5 @@ console.log(paragraphs);
 console.log(paragraphs[0]);
 
 
+const video = document.querySelector('.video--js');
+video.innerHTML = 'hola, hola';
