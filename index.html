@@ -10,10 +10,20 @@
 </head>
 
 <body>
-	<header class="navigation">
-		<a class="navigation__link" href="index.html">Strona główna</a>
-		<a class="navigation__link" href="podstrona.html">Podstrona</a>
-		<a class="navigation__link" href="dzierganie.html">Dzierganie</a>
+	<header class="site-header">
+		<nav class="navigation">
+			<ul class="navigation__list">
+				<li class="navigation-item">
+					<a class="navigation__link" href="index.html">Strona główna</a>
+				</li>
+				<li class="navigation-item">
+					<a class="navigation__link" href="podstrona.html">Podstrona</a>
+				</li>
+				<li class="navigation-item">
+					<a class="navigation__link" href="dzierganie.html">Dzierganie</a>
+				</li>
+			</ul>
+		</nav>	
 	</header>
 
 	<main id="top" class="main">
@@ -38,6 +48,26 @@
 			<p class="about__paragraph about__paragraph--color">
 				Tęstuję modyfikator
 			</p>
+
+			<section class="hobby">
+				<h3>Moje hobby</h3>
+				<ul class="hobby__list">
+					<li>Nagrywanie szkolenia</li>
+					<li>dronowanie</li>
+					<li>spanie</li>
+					<li>puzzle</li>
+				</ul>
+			</section>
+
+			<section class="Plan">
+				<h3>Mój plan</h3>
+				<ol>
+					<li>Wstać</li>
+					<li>prysznic</li>
+					<li>kawa</li>
+				</ol>
+			</section>
+
 		</section>
 		<section class="diary" id="pamietniczek">
 			<h2 class="diary__header">Pamiętniczek</h2>
@@ -57,6 +87,49 @@
 						przybliża mnie do skończenia pracy.</p>
 			</section>
 		</section>
+		<section class="glossary">
+			<h2>Potwory</h2>
+			<dl>
+				<dt>CSS</dt>
+				<dd>style (to co widzisz jak jest ładne albo brzydkie)</dd>
+				<dt>HTML</dt>
+				<dd>treść + szkielet strony</dd>
+				<dt>JavaScript</dt>
+				<dt>Es6</dt>
+				<dd>rzezcy, których teraz się uczę</dd>
+			</dl>
+		</section>
+
+		<section clas="data>">
+			<h2>To jest tabelka</h2>
+			<table class="table">
+				<caption>Oceny z pierwszego semestru z przedmiotu WTF</caption>
+				<thead>
+					<tr>
+						<th>Imię nazwisko</th>
+						<th>Cena</th>
+						<th>Data</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Monika Naleźnik</td>
+						<td>6</td>
+						<td>6.03.2020</td>
+					</tr>
+					<tr>
+						<td>Marian Marian</td>
+						<td>5</td>
+						<td>4.03.2020</td>
+					</tr>
+				</tbody>
+			</table>
+
+
+
+		</section>
+
+
 	</main>
 	<footer>
 		<a href="#top" class="footer">Na górę</a>

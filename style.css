@@ -3,7 +3,7 @@ body {
     color: #333;
 }
 
-.navigation {
+.site-header {
     position: fixed;
     width: 100%;
     top: 0;
@@ -13,8 +13,22 @@ body {
     background: #fff;
 }
 
+.navigation {
+
+}
+
+.navigation-list {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation-item {
+    display: inline;
+}
+
 .navigation__link {
     color: #1A936f;
+
 }
 
 .main {
@@ -102,4 +116,9 @@ body {
     right: 10px;
     color: #1a936f;
     text-decoration: none;
+}
+
+.hobby__list {
+   list-style: none; 
+   padding: 0;
 }
